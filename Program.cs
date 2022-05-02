@@ -8,6 +8,8 @@ namespace WageComputation // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Console.WriteLine("Employee Wage Computation");
+            WageComputation objEmp = new WageComputation();
+            objEmp.CheckPresence();    
         }
     }
 }
